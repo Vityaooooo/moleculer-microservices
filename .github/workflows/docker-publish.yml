@@ -26,19 +26,19 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/moleculer-logging-service:latest
 
-      - name: Build and push moleculer-order-service
+      - name: Build and push moleculer-orders-service
         uses: docker/build-push-action@v5
         with:
-          context: ./moleculer-order-service
+          context: ./moleculer-orders-service
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/moleculer-order-service:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/moleculer-orders-service:latest
 
-      - name: Build and push moleculer-product-service
+      - name: Build and push moleculer-products-service
         uses: docker/build-push-action@v5
         with:
-          context: ./moleculer-product-service
+          context: ./moleculer-products-service
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/moleculer-product-service:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/moleculer-products-service:latest
 
       - name: Build and push moleculer-api-gateway
         uses: docker/build-push-action@v5
