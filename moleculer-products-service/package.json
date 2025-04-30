@@ -1,0 +1,17 @@
+{
+  "name": "products-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "moleculer": "^0.14.35",
+    "moleculer-repl": "^0.7.4",
+    "nats": "^2.29.1"
+  }
+}

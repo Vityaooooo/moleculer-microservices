@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "product": "Laptop",
+    "status": "pending"
+  },
+  {
+    "id": "2",
+    "product": "Mobile",
+    "status": "ready"
+  }
+]
